@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+
+    /* Essential for ts-node with ESM */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext", 
+
+    /* Other recommended settings */
+    "target": "ES2022",
+    "lib": ["ES2023", "DOM"], 
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noEmit": true 
+  },
+  "include": ["vite.config.ts", "generate-sitemap.ts"]
+}
